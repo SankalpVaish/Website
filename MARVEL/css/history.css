@@ -1,0 +1,82 @@
+body{
+	background-color: black;
+	color: white;
+}
+/*****************************header************************************/
+header{
+	background-color: #e60000;
+}
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 50%;
+  height: 250px;
+  border-radius: 50%;
+}
+.color-change-4x {
+  -webkit-animation: color-change-4x 6s linear infinite alternate both;
+          animation: color-change-4x 6s linear infinite alternate both;
+}
+@keyframes color-change-4x {
+  0% {
+    background: #e60000;
+  }
+  33.3333% {
+    background: black;
+  }
+  66.666% {
+    background: #e60000;
+  }
+  100% {
+    background: black;
+  }
+}
+
+#nav{
+    background-color: #e60000;
+}
+
+#nav-list p{
+
+  vertical-align: middle;
+  font-size: 1em;
+  margin-left: 20px;
+  color: white;
+}
+#nav-list p:hover, #nav-list p:focus{
+  color: black;
+
+}
+/*********************************footer********************************/
+.panel-footer{
+  background-color: #4d4d4d;
+  text-align: center;
+
+}
+
+#content{
+  position: relative;
+  float: right;
+  margin-left: 50px;
+  margin-right: 10px;
+  width: 350px;
+}
+div{
+  font-size: 20px;
+}
+.begin{
+  position: relative;
+  margin-left: 450px;
+}
+
+pre{
+  background-color: black;
+  color: white;
+}
+marquee{
+  position: relative;
+  float: right;
+  width: 300px;
+}

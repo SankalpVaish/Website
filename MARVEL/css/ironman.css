@@ -1,0 +1,104 @@
+#a{
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-delay: -1s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes example {
+  0%   { left:1500px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+#b{
+  position: relative;
+  animation-name: example_b;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes example_b{
+  0%   { left:0px; top:0px;}
+  100% {left:700px; top:0px;}
+}
+body{
+  background-color: black;
+}
+header{
+  background-color: #e60000;
+  text-align: center;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+#nav{
+    background-color: #e60000;
+}
+
+#nav-list p{
+
+  vertical-align: middle;
+  font-size: 1em;
+  margin-left: 20px;
+  color: white;
+}
+#nav-list p:hover, #nav-list p:focus{
+  color: black;
+
+}
