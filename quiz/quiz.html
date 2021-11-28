@@ -1,0 +1,115 @@
+<!doctype html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Quiz</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="quiz.css">
+	</head>
+	<body>
+	<header>
+		<nav id="nav" class="navbar navbar-default">
+			
+				<h1>QUIZ</h1>
+			<ul id="nav-list" class=" nav navbar-nav">
+			<li><p>MATHS	</p></li>
+			<li><p>COMPUTER</p></li>
+			<li><p>ENGLISH</p></li>
+			<li><p>GEOGRAPHY</p></li>
+			<li><p>HISTORY</p></li>
+			<li><p>POLICTICS</p></li>
+			<li><p>ECONOMICS</p></li></ul>
+			
+			</nav>
+	</header>
+
+
+
+		<div id="main" >
+		<h2 >Welcome to the Quiz</h2>
+		<div class="container">
+		<form>
+<FIELDSET>
+ENTER YOUR NAME	<INPUT ID="username" name="uname"><BR/>
+<BR/>
+ENTER AGE <INPUT TYPE="TEXT" MAXLENGTH="2" name="age" VALUE="00"><BR/>
+<BR/>
+ENTER PASSWORD	 <INPUT TYPE="PASSWORD" name="pass" MAXLENGTH="4"><BR/>
+<BR/>
+ENTER CONFIRM PASSWORD	 <INPUT TYPE="PASSWORD" name="con" MAXLENGTH="4"><BR/>
+</FIELDSET>
+</div><br>
+						<marquee width="40%" direction="up" height="140%" scrollamount="10" onmouseover="this.stop()" onmouseout="this.start()" style="float:  right ;position: absolute; background-color: #DDD8C4;">
+    <img src="balloon.png" width="30%" ;>
+</marquee>
+		<div class="container">
+
+		<h4>Q1- What is 5+4 <br></h4>
+			<INPUT TYPE="RADIO" name="ans1" id="ans1" value=9><span>9</span></INPUT><BR/>
+			<INPUT TYPE="RADIO" name="ans1" id="ans1" value=6><span>6</span></INPUT><BR/>
+			<INPUT TYPE="RADIO" name="ans1" id="ans1" value=3><span>3</span></INPUT><BR/>
+			<INPUT TYPE="RADIO" name="ans1" id="ans1" value=11><span>11</span></INPUT><BR/><br><br>
+		<h4>Q2- What is 5*6<br></h4>
+			<INPUT TYPE="RADIO" name="ans2" value=300><span>300</span></INPUT><BR/>
+			<INPUT TYPE="RADIO" name="ans2" value=10><span>10</span></INPUT><BR/>
+			<INPUT TYPE="RADIO" name="ans2" value=56><span>56</span></INPUT><BR/>
+			<INPUT TYPE="RADIO" name="ans2" value=30><span>30</span></INPUT><BR/><br><br>
+		<h4>Q3- What is 5-4 <br></h4>
+			<INPUT TYPE="RADIO" name="ans3" value=9><span>9</span></INPUT><BR/>
+			<INPUT TYPE="RADIO" name="ans3" value=6><span>6</span></INPUT><BR/>
+			<INPUT TYPE="RADIO" name="ans3" value=3><span>3</span></INPUT><BR/>
+			<INPUT TYPE="RADIO" name="ans3" value=1><span>1</span></INPUT><BR/><br><br>
+		<h4>Q4- What is 50*6<br></h4>
+			<INPUT TYPE="RADIO" name="ans4" value=300><span>300</span></INPUT><BR/>
+			<INPUT TYPE="RADIO" name="ans4" value=10><span>10</span></INPUT><BR/>
+			<INPUT TYPE="RADIO" name="ans4" value=56><span>56</span></INPUT><BR/>
+			<INPUT TYPE="RADIO" name="ans4" value=30><span>30</span></INPUT><BR/><br><br>
+		<h4>Q5- What is 9*0 <br></h4>
+			<INPUT TYPE="RADIO" name="ans5" value=9><span>9</span></INPUT><BR/>
+			<INPUT TYPE="RADIO" name="ans5" value=90><span>90</span></INPUT><BR/>
+			<INPUT TYPE="RADIO" name="ans5" value=0><span>0</span></INPUT><BR/>
+			<INPUT TYPE="RADIO" name="ans5" value=99><span>99</span></INPUT><BR/><br><br>
+		<h4>Q6- What is 5/1<br></h4>
+			<INPUT TYPE="RADIO" name="ans6" value=5><span>5</span></INPUT><BR/>
+			<INPUT TYPE="RADIO" name="ans6" value=1><span>1</span></INPUT><BR/>
+			<INPUT TYPE="RADIO" name="ans6" value=0><span>0</span></INPUT><BR/>
+			<INPUT TYPE="RADIO" name="ans6" value=51><span>51</span></INPUT><BR/><br><br>
+		<button onclick ="sub();return false;">Submit >> </button>
+	</div></div></form></div></div>
+
+
+
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Sun-Thurs: 11:15am - 10:00pm<br>
+          Fri: 11:15am - 2:30pm<br>
+          Saturday Closed
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          Kanpur Road<br>
+          Lucknow, 226755
+          <article>* Free access</article>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <article>"Here is everything you need"</article>
+          <article>"knowledge is power"</article>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright Leon Scot Kneddy 2021</div>
+    </div>
+  </footer>
+
+
+
+	<script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="quiz.js"></script>
+	</body>
+	</html>

@@ -1,0 +1,49 @@
+h2{
+	text-align: center;
+	color: #CCE3E3;
+	background-color: black;
+	text-transform: uppercase;
+	opacity: .8;
+	text-shadow: 1px 1px 1px;
+}
+h4{
+	color: #777777;
+	text-transform: uppercase;
+	opacity: .8;
+	text-shadow: 1px 1px 1px;
+}
+button{
+	border: 1px solid black;
+	background-color: lightblue;
+	font-size: 1.5em;
+	margin: auto;
+	padding: 10px;
+}
+#main{
+	background-color: #DDD8C4;
+}
+FIELDSET{
+	margin: =10px;
+	background-color: #F7D8A6;
+}
+#nav{
+	background-color: brown;
+	color: white;
+	border-radius: 0;
+	border: 0;
+}
+.panel-footer{
+	background-color: #DAF7A6 ;
+}
+#nav-list p{
+	vertical-align: middle;
+	font-size: .7em;
+	margin-left: 20px;
+}
+#nav-list p:hover, #nav-list p:focus{
+	background-color: green;
+
+}
+.container{
+	position: relative;
+}
